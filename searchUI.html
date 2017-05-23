@@ -1,0 +1,307 @@
+<!doctype html>
+
+<html lang="en">
+
+
+
+
+
+
+	<head>
+		<meta charset = "UTF-8">
+		<title>Integer Chemistry</title>
+		
+		<link rel="stylesheet" type="text/css"
+		href="searchUI.css">
+		
+	</head>
+
+	<body>
+			
+		<p>This website demonstrates a method for representing atoms and molecules as integers.</p>
+		
+		<p>This website was built, and is updated, by Michael E. Campos. See bottom of page for contact information.</p>
+		
+		
+		<h1>Instructions</h1>
+
+			<p>1. Find an atom in the table of elements.</p>
+			<p>2. Click the atom to input 1 of that atom.</p>
+			<p>3. Repeat steps 1 and 2 until all atoms are inputed.</p>
+			<p>4. Click "SEARCH" to search for molecules composed of the inputed atoms.</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		<br><form action="process.php" method="post">
+		  <fieldset>
+		    <legend> Table of Elements </legend>
+				<label for="H">&#160&#160H</label>
+				<input type="number" name="H" id="H"/>
+				<label for="He">&#160He</label>
+				<input type="number" name="He" id="He"/>
+				<label for="Li">&#160Li</label>
+				<input type="number" name="Li" id="Li"/>
+				<label for="Be">&#160Be</label>
+				<input type="number" name="Be" id="Be"/>
+				<label for="B">&#160&#160B</label>
+				<input type="number" name="B" id="B"/>
+				<label for="C">&#160&#160C</label>
+				<input type="number" name="C" id="C"/>
+				<label for="N">&#160&#160N</label>
+				<input type="number" name="N" id="N"/>
+				<label for="O">&#160&#160O</label>
+				<input type="number" name="O" id="O"/>
+				<label for="F">&#160&#160F</label>
+				<input type="number" name="F" id="F"/>
+				<label for="Ne">&#160Ne</label>
+				<input type="number" name="Ne" id="Ne"/><br>
+				<label for="Na">&#160Na</label>
+				<input type="number" name="Na" id="Na"/>
+				<label for="Mg">&#160Mg</label>
+				<input type="number" name="Mg" id="Mg"/>
+				<label for="Al">&#160Al</label>
+				<input type="number" name="Al" id="Al"/>
+				<label for="Si">&#160Si</label>
+				<input type="number" name="Si" id="Si"/>
+				<label for="P">&#160&#160P</label>
+				<input type="number" name="P" id="P"/>
+				<label for="S">&#160&#160S</label>
+				<input type="number" name="S" id="S"/>
+				<label for="Cl">&#160Cl</label>
+				<input type="number" name="Cl" id="Cl"/>
+				<label for="Ar">&#160Ar</label>
+				<input type="number" name="Ar" id="Ar"/>
+				<label for="K">&#160&#160K</label>
+				<input type="number" name="K" id="K"/>
+				<label for="Ca">&#160Ca</label>
+				<input type="number" name="Ca" id="Ca"/><br>
+				<label for="Sc">&#160Sc</label>
+				<input type="number" name="Sc" id="Sc"/>
+				<label for="Ti">&#160Ti</label>
+				<input type="number" name="Ti" id="Ti"/>
+				<label for="V">&#160&#160V</label>
+				<input type="number" name="V" id="V"/>
+				<label for="Cr">&#160Cr</label>
+				<input type="number" name="Cr" id="Cr"/>
+				<label for="Mn">&#160Mn</label>
+				<input type="number" name="Mn" id="Mn"/>
+				<label for="Fe">&#160Fe</label>
+				<input type="number" name="Fe" id="Fe"/>
+				<label for="Co">&#160Co</label>
+				<input type="number" name="Co" id="Co"/>
+				<label for="Ni">&#160Ni</label>
+				<input type="number" name="Ni" id="Ni"/>
+				<label for="Cu">&#160Cu</label>
+				<input type="number" name="Cu" id="Cu"/>
+				<label for="Zn">&#160Zn</label>
+				<input type="number" name="Zn" id="Zn"/><br>
+				<label for="Ga">&#160Ga</label>
+				<input type="number" name="Ga" id="Ga"/>
+				<label for="Ge">&#160Ge</label>
+				<input type="number" name="Ge" id="Ge"/>
+				<label for="As">&#160As</label>
+				<input type="number" name="As" id="As"/>
+				<label for="Se">&#160Se</label>
+				<input type="number" name="Se" id="Se"/>
+				<label for="Br">&#160Br</label>
+				<input type="number" name="Br" id="Br"/>
+				<label for="Kr">&#160Kr</label>
+				<input type="number" name="Kr" id="Kr"/>
+				<label for="Rb">&#160Rb</label>
+				<input type="number" name="Rb" id="Rb"/>
+				<label for="Sr">&#160Sr</label>
+				<input type="number" name="Sr" id="Sr"/>
+				<label for="Y">&#160&#160Y</label>
+				<input type="number" name="Y" id="Y"/>
+				<label for="Zr">&#160Zr</label>
+				<input type="number" name="Zr" id="Zr"/><br>
+				<label for="Nb">&#160Nb</label>
+				<input type="number" name="Nb" id="Nb"/>
+				<label for="Mo">&#160Mo</label>
+				<input type="number" name="Mo" id="Mo"/>
+				<label for="Tc">&#160Tc</label>
+				<input type="number" name="Tc" id="Tc"/>
+				<label for="Ru">&#160Ru</label>
+				<input type="number" name="Ru" id="Ru"/>
+				<label for="Rh">&#160Rh</label>
+				<input type="number" name="Rh" id="Rh"/>
+				<label for="Pd">&#160Pd</label>
+				<input type="number" name="Pd" id="Pd"/>
+				<label for="Ag">&#160Ag</label>
+				<input type="number" name="Ag" id="Ag"/>
+				<label for="Cd">&#160Cd</label>
+				<input type="number" name="Cd" id="Cd"/>
+				<label for="In">&#160In</label>
+				<input type="number" name="In" id="In"/>
+				<label for="Sn">&#160Sn</label>
+				<input type="number" name="Sn" id="Sn"/><br>
+				<label for="Sb">&#160Sb</label>
+				<input type="number" name="Sb" id="Sb"/>
+				<label for="Te">&#160Te</label>
+				<input type="number" name="Te" id="Te"/>
+				<label for="I">&#160&#160I</label>
+				<input type="number" name="I" id="I"/>
+				<label for="Xe">&#160Xe</label>
+				<input type="number" name="Xe" id="Xe"/>
+				<label for="Cs">&#160Cs</label>
+				<input type="number" name="Cs" id="Cs"/>
+				<label for="Ba">&#160Ba</label>
+				<input type="number" name="Ba" id="Ba"/>
+				<label for="La">&#160La</label>
+				<input type="number" name="La" id="La"/>
+				<label for="Ce">&#160Ce</label>
+				<input type="number" name="Ce" id="Ce"/>
+				<label for="Pr">&#160Pr</label>
+				<input type="number" name="Pr" id="Pr"/>
+				<label for="Nd">&#160Nd</label>
+				<input type="number" name="Nd" id="Nd"/><br>
+				<label for="Pm">&#160Pm</label>
+				<input type="number" name="Pm" id="Pm"/>
+				<label for="Sm">&#160Sm</label>
+				<input type="number" name="Sm" id="Sm"/>
+				<label for="Eu">&#160Eu</label>
+				<input type="number" name="Eu" id="Eu"/>
+				<label for="Gd">&#160Gd</label>
+				<input type="number" name="Gd" id="Gd"/>
+				<label for="Tb">&#160Tb</label>
+				<input type="number" name="Tb" id="Tb"/>
+				<label for="Dy">&#160Dy</label>
+				<input type="number" name="Dy" id="Dy"/>
+				<label for="Ho">&#160Ho</label>
+				<input type="number" name="Ho" id="Ho"/>
+				<label for="Er">&#160Er</label>
+				<input type="number" name="Er" id="Er"/>
+				<label for="Tm">&#160Tm</label>
+				<input type="number" name="Tm" id="Tm"/>
+				<label for="Yb">&#160Yb</label>
+				<input type="number" name="Yb" id="Yb"/><br>
+				<label for="Lu">&#160Lu</label>
+				<input type="number" name="Lu" id="Lu"/>
+				<label for="Hf">&#160Hf</label>
+				<input type="number" name="Hf" id="Hf"/>
+				<label for="Ta">&#160Ta</label>
+				<input type="number" name="Ta" id="Ta"/>
+				<label for="W">&#160&#160W</label>
+				<input type="number" name="W" id="W"/>
+				<label for="Re">&#160Re</label>
+				<input type="number" name="Re" id="Re"/>
+				<label for="Os">&#160Os</label>
+				<input type="number" name="Os" id="Os"/>
+				<label for="Ir">&#160Ir</label>
+				<input type="number" name="Ir" id="Ir"/>
+				<label for="Pt">&#160Pt</label>
+				<input type="number" name="Pt" id="Pt"/>
+				<label for="Au">&#160Au</label>
+				<input type="number" name="Au" id="Au"/>
+				<label for="Hg">&#160Hg</label>
+				<input type="number" name="Hg" id="Hg"/><br>
+				<label for="Tl">&#160Tl</label>
+				<input type="number" name="Tl" id="Tl"/>
+				<label for="Pb">&#160Pb</label>
+				<input type="number" name="Pb" id="Pb"/>
+				<label for="Bi">&#160Bi</label>
+				<input type="number" name="Bi" id="Bi"/>
+				<label for="Po">&#160Po</label>
+				<input type="number" name="Po" id="Po"/>
+				<label for="At">&#160At</label>
+				<input type="number" name="At" id="At"/>
+				<label for="Rn">&#160Rn</label>
+				<input type="number" name="Rn" id="Rn"/>
+				<label for="Fr">&#160Fr</label>
+				<input type="number" name="Fr" id="Fr"/>
+				<label for="Ra">&#160Ra</label>
+				<input type="number" name="Ra" id="Ra"/>
+				<label for="Ac">&#160Ac</label>
+				<input type="number" name="Ac" id="Ac"/>
+				<label for="Th">&#160Th</label>
+				<input type="number" name="Th" id="Th"/><br>
+				<label for="Pa">&#160Pa</label>
+				<input type="number" name="Pa" id="Pa"/>
+				<label for="U">&#160&#160U</label>
+				<input type="number" name="U" id="U"/>
+				<label for="Np">&#160Np</label>
+				<input type="number" name="Np" id="Np"/>
+				<label for="Pu">&#160Pu</label>
+				<input type="number" name="Pu" id="Pu"/>
+				<label for="Am">&#160Am</label>
+				<input type="number" name="Am" id="Am"/>
+				<label for="Cm">&#160Cm</label>
+				<input type="number" name="Cm" id="Cm"/>
+				<label for="Bk">&#160Bk</label>
+				<input type="number" name="Bk" id="Bk"/>
+				<label for="Cf">&#160Cf</label>
+				<input type="number" name="Cf" id="Cf"/>
+				<label for="Es">&#160Es</label>
+				<input type="number" name="Es" id="Es"/>
+				<label for="Fm">&#160Fm</label>
+				<input type="number" name="Fm" id="Fm"/><br>
+				<label for="Md">&#160Md</label>
+				<input type="number" name="Md" id="Md"/>
+				<label for="No">&#160No</label>
+				<input type="number" name="No" id="No"/>
+				<label for="Lr">&#160Lr</label>
+				<input type="number" name="Lr" id="Lr"/>
+				<label for="Rf">&#160Rf</label>
+				<input type="number" name="Rf" id="Rf"/>
+				<label for="Db">&#160Db</label>
+				<input type="number" name="Db" id="Db"/>
+				<label for="Sg">&#160Sg</label>
+				<input type="number" name="Sg" id="Sg"/>
+				<label for="Bh">&#160Bh</label>
+				<input type="number" name="Bh" id="Bh"/>
+				<label for="Hs">&#160Hs</label>
+				<input type="number" name="Hs" id="Hs"/>
+				<label for="Mt">&#160Mt</label>
+				<input type="number" name="Mt" id="Mt"/>
+				<label for="Ds">&#160Ds</label>
+				<input type="number" name="Ds" id="Ds"/><br>
+				<label for="Rg">&#160Rg</label>
+				<input type="number" name="Rg" id="Rg"/>
+				<label for="Cn">&#160Cn</label>
+				<input type="number" name="Cn" id="Cn"/>
+				<label for="Uut" id=""/>Uut</label>
+				<input type="number" name="Uut" id="Uut"/>
+				<label for="Uuq" id=""/>Uuq</label>
+				<input type="number" name="Uuq" id="Uuq"/>
+				<label for="Uup" id=""/>Uup</label>
+				<input type="number" name="Uup" id="Uup"/>
+				<label for="Uuh" id=""/>Uuh</label>
+				<input type="number" name="Uuh" id="Uuh"/>
+				<label for="Uus" id=""/>Uus</label>
+				<input type="number" name="Uus" id="Uus"/>
+				<label for="Uuo" id=""/>Uuo</label>
+				<input type="number" name="Uuo" id="Uuo"/><br>
+
+				<br><input type="submit" value="SEARCH">
+			</form>
+		  </fieldset>
+		
+		
+		
+		
+		
+		
+		<h2>Explanation of the Output</h2>
+		
+			<p>The output is a list of all possible moleculecular formulas that can be created using the inputed atoms. For example, 
+			if 100 carbon, 100 hydrogen, and 100 oxygen atoms are inputed, the output will list many molecular formula variations 
+			of CHO, HO, CH, etc. However, the output will not list variations with more than 100 C, H, or O atoms atom.</p>
+		
+		
+	</body>
+
+	<footer>
+		<p>Michael's contact information<br><br>camposmike92@gmail.com</p>
+		
+	</footer>
+
+
+
+
+
+</html>

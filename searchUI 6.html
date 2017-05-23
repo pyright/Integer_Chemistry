@@ -1,0 +1,441 @@
+<!doctype html>
+
+<html lang="en">
+
+
+
+
+
+
+	<head>
+		<meta charset = "UTF-8">
+		<title>Integer Chemistry</title>
+		
+		<link rel="stylesheet" type="text/css" href="searchUI.css">
+		
+		
+		<script>
+		
+		function calculateComposite(){
+		
+		var H = document.getElementById('H').value;
+		var He = document.getElementById('He').value;
+		var Li = document.getElementById('Li').value;
+		var Be = document.getElementById('Be').value;
+		var B = document.getElementById('B').value;
+		var C = document.getElementById('C').value;
+		var N = document.getElementById('N').value;
+		var O = document.getElementById('O').value;
+		var F = document.getElementById('F').value;
+		var Ne = document.getElementById('Ne').value;
+		var Na = document.getElementById('Na').value;
+		var Mg = document.getElementById('Mg').value;
+		var Al = document.getElementById('Al').value;
+		var Si = document.getElementById('Si').value;
+		var P = document.getElementById('P').value;
+		var S = document.getElementById('S').value;
+		var Cl = document.getElementById('Cl').value;
+		var Ar = document.getElementById('Ar').value;
+		var K = document.getElementById('K').value;
+		var Ca = document.getElementById('Ca').value;
+		var Sc = document.getElementById('Sc').value;
+		var Ti = document.getElementById('Ti').value;
+		var V = document.getElementById('V').value;
+		var Cr = document.getElementById('Cr').value;
+		var Mn = document.getElementById('Mn').value;
+		var Fe = document.getElementById('Fe').value;
+		var Co = document.getElementById('Co').value;
+		var Ni = document.getElementById('Ni').value;
+		var Cu = document.getElementById('Cu').value;
+		var Zn = document.getElementById('Zn').value;
+		var Ga = document.getElementById('Ga').value;
+		var Ge = document.getElementById('Ge').value;
+		var As = document.getElementById('As').value;
+		var Se = document.getElementById('Se').value;
+		var Br = document.getElementById('Br').value;
+		var Kr = document.getElementById('Kr').value;
+		var Rb = document.getElementById('Rb').value;
+		var Sr = document.getElementById('Sr').value;
+		var Y = document.getElementById('Y').value;
+		var Zr = document.getElementById('Zr').value;
+		var Nb = document.getElementById('Nb').value;
+		var Mo = document.getElementById('Mo').value;
+		var Tc = document.getElementById('Tc').value;
+		var Ru = document.getElementById('Ru').value;
+		var Rh = document.getElementById('Rh').value;
+		var Pd = document.getElementById('Pd').value;
+		var Ag = document.getElementById('Ag').value;
+		var Cd = document.getElementById('Cd').value;
+		var In = document.getElementById('In').value;
+		var Sn = document.getElementById('Sn').value;
+		var Sb = document.getElementById('Sb').value;
+		var Te = document.getElementById('Te').value;
+		var I = document.getElementById('I').value;
+		var Xe = document.getElementById('Xe').value;
+		var Cs = document.getElementById('Cs').value;
+		var Ba = document.getElementById('Ba').value;
+		var La = document.getElementById('La').value;
+		var Ce = document.getElementById('Ce').value;
+		var Pr = document.getElementById('Pr').value;
+		var Nd = document.getElementById('Nd').value;
+		var Pm = document.getElementById('Pm').value;
+		var Sm = document.getElementById('Sm').value;
+		var Eu = document.getElementById('Eu').value;
+		var Gd = document.getElementById('Gd').value;
+		var Tb = document.getElementById('Tb').value;
+		var Dy = document.getElementById('Dy').value;
+		var Ho = document.getElementById('Ho').value;
+		var Er = document.getElementById('Er').value;
+		var Tm = document.getElementById('Tm').value;
+		var Yb = document.getElementById('Yb').value;
+		var Lu = document.getElementById('Lu').value;
+		var Hf = document.getElementById('Hf').value;
+		var Ta = document.getElementById('Ta').value;
+		var W = document.getElementById('W').value;
+		var Re = document.getElementById('Re').value;
+		var Os = document.getElementById('Os').value;
+		var Ir = document.getElementById('Ir').value;
+		var Pt = document.getElementById('Pt').value;
+		var Au = document.getElementById('Au').value;
+		var Hg = document.getElementById('Hg').value;
+		var Tl = document.getElementById('Tl').value;
+		var Pb = document.getElementById('Pb').value;
+		var Bi = document.getElementById('Bi').value;
+		var Po = document.getElementById('Po').value;
+		var At = document.getElementById('At').value;
+		var Rn = document.getElementById('Rn').value;
+		var Fr = document.getElementById('Fr').value;
+		var Ra = document.getElementById('Ra').value;
+		var Ac = document.getElementById('Ac').value;
+		var Th = document.getElementById('Th').value;
+		var Pa = document.getElementById('Pa').value;
+		var U = document.getElementById('U').value;
+		var Np = document.getElementById('Np').value;
+		var Pu = document.getElementById('Pu').value;
+		var Am = document.getElementById('Am').value;
+		var Cm = document.getElementById('Cm').value;
+		var Bk = document.getElementById('Bk').value;
+		var Cf = document.getElementById('Cf').value;
+		var Es = document.getElementById('Es').value;
+		var Fm = document.getElementById('Fm').value;
+		var Md = document.getElementById('Md').value;
+		var No = document.getElementById('No').value;
+		var Lr = document.getElementById('Lr').value;
+		var Rf = document.getElementById('Rf').value;
+		var Db = document.getElementById('Db').value;
+		var Sg = document.getElementById('Sg').value;
+		var Bh = document.getElementById('Bh').value;
+		var Hs = document.getElementById('Hs').value;
+		var Mt = document.getElementById('Mt').value;
+		var Ds = document.getElementById('Ds').value;
+		var Rg = document.getElementById('Rg').value;
+		var Cn = document.getElementById('Cn').value;
+		var Uut = document.getElementById('Uut').value;
+		var Uuq = document.getElementById('Uuq').value;
+		var Uup = document.getElementById('Uup').value;
+		var Uuh = document.getElementById('Uuh').value;
+		var Uus = document.getElementById('Uus').value;
+		var Uuo = document.getElementById('Uuo').value;
+		
+		var composite = 1*(Math.pow(2, H))*(Math.pow(3, He))*(Math.pow(5, Li))*(Math.pow(7, Be))*(Math.pow(11, B))*(Math.pow(13, C))*(Math.pow(17, N))*(Math.pow(19, O))*(Math.pow(23, F))*(Math.pow(29, Ne))*(Math.pow(31, Na))*(Math.pow(37, Mg))*(Math.pow(41, Al))*(Math.pow(43, Si))*(Math.pow(47, P))*(Math.pow(53, S))*(Math.pow(59, Cl))*(Math.pow(61, Ar))*(Math.pow(67, K))*(Math.pow(71, Ca))*(Math.pow(73, Sc))*(Math.pow(79, Ti))*(Math.pow(83, V))*(Math.pow(89, Cr))*(Math.pow(97, Mn))*(Math.pow(101, Fe))*(Math.pow(103, Co))*(Math.pow(107, Ni))*(Math.pow(109, Cu))*(Math.pow(113, Zn))*(Math.pow(127, Ga))*(Math.pow(131, Ge))*(Math.pow(137, As))*(Math.pow(139, Se))*(Math.pow(149, Br))*(Math.pow(151, Kr))*(Math.pow(157, Rb))*(Math.pow(163, Sr))*(Math.pow(167, Y))*(Math.pow(173, Zr))*(Math.pow(179, Nb))*(Math.pow(181, Mo))*(Math.pow(191, Tc))*(Math.pow(193, Ru))*(Math.pow(197, Rh))*(Math.pow(199, Pd))*(Math.pow(211, Ag))*(Math.pow(223, Cd))*(Math.pow(227, In))*(Math.pow(229, Sn))*(Math.pow(233, Sb))*(Math.pow(239, Te))*(Math.pow(241, I))*(Math.pow(251, Xe))*(Math.pow(257, Cs))*(Math.pow(263, Ba))*(Math.pow(269, La))*(Math.pow(271, Ce))*(Math.pow(277, Pr))*(Math.pow(281, Nd))*(Math.pow(283, Pm))*(Math.pow(293, Sm))*(Math.pow(307, Eu))*(Math.pow(311, Gd))*(Math.pow(313, Tb))*(Math.pow(317, Dy))*(Math.pow(331, Ho))*(Math.pow(337, Er))*(Math.pow(347, Tm))*(Math.pow(349, Yb))*(Math.pow(353, Lu))*(Math.pow(359, Hf))*(Math.pow(367, Ta))*(Math.pow(373, W))*(Math.pow(379, Re))*(Math.pow(383, Os))*(Math.pow(389, Ir))*(Math.pow(397, Pt))*(Math.pow(401, Au))*(Math.pow(409, Hg))*(Math.pow(419, Tl))*(Math.pow(421, Pb))*(Math.pow(431, Bi))*(Math.pow(433, Po))*(Math.pow(439, At))*(Math.pow(443, Rn))*(Math.pow(449, Fr))*(Math.pow(457, Ra))*(Math.pow(461, Ac))*(Math.pow(463, Th))*(Math.pow(467, Pa))*(Math.pow(479, U))*(Math.pow(487, Np))*(Math.pow(491, Pu))*(Math.pow(499, Am))*(Math.pow(503, Cm))*(Math.pow(509, Bk))*(Math.pow(521, Cf))*(Math.pow(523, Es))*(Math.pow(541, Fm))*(Math.pow(547, Md))*(Math.pow(557, No))*(Math.pow(563, Lr))*(Math.pow(569, Rf))*(Math.pow(571, Db))*(Math.pow(577, Sg))*(Math.pow(587, Bh))*(Math.pow(593, Hs))*(Math.pow(599, Mt))*(Math.pow(601, Ds))*(Math.pow(607, Rg))*(Math.pow(613, Cn))*(Math.pow(617, Uut))*(Math.pow(619, Uuq))*(Math.pow(631, Uup))*(Math.pow(641, Uuh))*(Math.pow(643, Uus))*(Math.pow(647, Uuo))
+		
+		document.getElementById('compositeOutput').innerHTML = "Composite ID = "+composite;
+		}
+		
+		</script>
+		
+		
+		
+	</head>
+
+	<body>
+			
+		<p>This website demonstrates a method for representing atoms and molecules as integers.</p>
+		
+		<p>This website was built, and is updated, by Michael E. Campos. See bottom of page for contact information.</p>
+		
+		
+		<h1>Instructions</h1>
+
+			<p>1. Find an atom in the table of elements.</p>
+			<p>2. Click the atom to input 1 of that atom.</p>
+			<p>3. Repeat steps 1 and 2 until all atoms are inputed.</p>
+			<p>4. Click "SEARCH" to search for molecules composed of the inputed atoms.</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		<br><form action="process.php" method="post">
+		  <fieldset>
+		    <legend> Table of Elements </legend>
+				<label for="H">&#160&#160H</label>
+				<input type="number" style="width:25px" value="0" min="0" name="H" id="H"/>
+				<label for="He">&#160He</label>
+				<input type="number" style="width:25px" value="0" min="0" name="He" id="He"/>
+				<label for="Li">&#160Li</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Li" id="Li"/>
+				<label for="Be">&#160Be</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Be" id="Be"/>
+				<label for="B">&#160&#160B</label>
+				<input type="number" style="width:25px" value="0" min="0" name="B" id="B"/>
+				<label for="C">&#160&#160C</label>
+				<input type="number" style="width:25px" value="0" min="0" name="C" id="C"/>
+				<label for="N">&#160&#160N</label>
+				<input type="number" style="width:25px" value="0" min="0" name="N" id="N"/>
+				<label for="O">&#160&#160O</label>
+				<input type="number" style="width:25px" value="0" min="0" name="O" id="O"/>
+				<label for="F">&#160&#160F</label>
+				<input type="number" style="width:25px" value="0" min="0" name="F" id="F"/>
+				<label for="Ne">&#160Ne</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ne" id="Ne"/><br>
+				<label for="Na">&#160Na</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Na" id="Na"/>
+				<label for="Mg">&#160Mg</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Mg" id="Mg"/>
+				<label for="Al">&#160Al</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Al" id="Al"/>
+				<label for="Si">&#160Si</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Si" id="Si"/>
+				<label for="P">&#160&#160P</label>
+				<input type="number" style="width:25px" value="0" min="0" name="P" id="P"/>
+				<label for="S">&#160&#160S</label>
+				<input type="number" style="width:25px" value="0" min="0" name="S" id="S"/>
+				<label for="Cl">&#160Cl</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Cl" id="Cl"/>
+				<label for="Ar">&#160Ar</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ar" id="Ar"/>
+				<label for="K">&#160&#160K</label>
+				<input type="number" style="width:25px" value="0" min="0" name="K" id="K"/>
+				<label for="Ca">&#160Ca</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ca" id="Ca"/><br>
+				<label for="Sc">&#160Sc</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Sc" id="Sc"/>
+				<label for="Ti">&#160Ti</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ti" id="Ti"/>
+				<label for="V">&#160&#160V</label>
+				<input type="number" style="width:25px" value="0" min="0" name="V" id="V"/>
+				<label for="Cr">&#160Cr</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Cr" id="Cr"/>
+				<label for="Mn">&#160Mn</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Mn" id="Mn"/>
+				<label for="Fe">&#160Fe</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Fe" id="Fe"/>
+				<label for="Co">&#160Co</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Co" id="Co"/>
+				<label for="Ni">&#160Ni</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ni" id="Ni"/>
+				<label for="Cu">&#160Cu</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Cu" id="Cu"/>
+				<label for="Zn">&#160Zn</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Zn" id="Zn"/><br>
+				<label for="Ga">&#160Ga</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ga" id="Ga"/>
+				<label for="Ge">&#160Ge</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ge" id="Ge"/>
+				<label for="As">&#160As</label>
+				<input type="number" style="width:25px" value="0" min="0" name="As" id="As"/>
+				<label for="Se">&#160Se</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Se" id="Se"/>
+				<label for="Br">&#160Br</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Br" id="Br"/>
+				<label for="Kr">&#160Kr</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Kr" id="Kr"/>
+				<label for="Rb">&#160Rb</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Rb" id="Rb"/>
+				<label for="Sr">&#160Sr</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Sr" id="Sr"/>
+				<label for="Y">&#160&#160Y</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Y" id="Y"/>
+				<label for="Zr">&#160Zr</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Zr" id="Zr"/><br>
+				<label for="Nb">&#160Nb</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Nb" id="Nb"/>
+				<label for="Mo">&#160Mo</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Mo" id="Mo"/>
+				<label for="Tc">&#160Tc</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Tc" id="Tc"/>
+				<label for="Ru">&#160Ru</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ru" id="Ru"/>
+				<label for="Rh">&#160Rh</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Rh" id="Rh"/>
+				<label for="Pd">&#160Pd</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Pd" id="Pd"/>
+				<label for="Ag">&#160Ag</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ag" id="Ag"/>
+				<label for="Cd">&#160Cd</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Cd" id="Cd"/>
+				<label for="In">&#160In</label>
+				<input type="number" style="width:25px" value="0" min="0" name="In" id="In"/>
+				<label for="Sn">&#160Sn</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Sn" id="Sn"/><br>
+				<label for="Sb">&#160Sb</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Sb" id="Sb"/>
+				<label for="Te">&#160Te</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Te" id="Te"/>
+				<label for="I">&#160&#160I</label>
+				<input type="number" style="width:25px" value="0" min="0" name="I" id="I"/>
+				<label for="Xe">&#160Xe</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Xe" id="Xe"/>
+				<label for="Cs">&#160Cs</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Cs" id="Cs"/>
+				<label for="Ba">&#160Ba</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ba" id="Ba"/>
+				<label for="La">&#160La</label>
+				<input type="number" style="width:25px" value="0" min="0" name="La" id="La"/>
+				<label for="Ce">&#160Ce</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ce" id="Ce"/>
+				<label for="Pr">&#160Pr</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Pr" id="Pr"/>
+				<label for="Nd">&#160Nd</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Nd" id="Nd"/><br>
+				<label for="Pm">&#160Pm</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Pm" id="Pm"/>
+				<label for="Sm">&#160Sm</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Sm" id="Sm"/>
+				<label for="Eu">&#160Eu</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Eu" id="Eu"/>
+				<label for="Gd">&#160Gd</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Gd" id="Gd"/>
+				<label for="Tb">&#160Tb</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Tb" id="Tb"/>
+				<label for="Dy">&#160Dy</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Dy" id="Dy"/>
+				<label for="Ho">&#160Ho</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ho" id="Ho"/>
+				<label for="Er">&#160Er</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Er" id="Er"/>
+				<label for="Tm">&#160Tm</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Tm" id="Tm"/>
+				<label for="Yb">&#160Yb</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Yb" id="Yb"/><br>
+				<label for="Lu">&#160Lu</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Lu" id="Lu"/>
+				<label for="Hf">&#160Hf</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Hf" id="Hf"/>
+				<label for="Ta">&#160Ta</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ta" id="Ta"/>
+				<label for="W">&#160&#160W</label>
+				<input type="number" style="width:25px" value="0" min="0" name="W" id="W"/>
+				<label for="Re">&#160Re</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Re" id="Re"/>
+				<label for="Os">&#160Os</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Os" id="Os"/>
+				<label for="Ir">&#160Ir</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ir" id="Ir"/>
+				<label for="Pt">&#160Pt</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Pt" id="Pt"/>
+				<label for="Au">&#160Au</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Au" id="Au"/>
+				<label for="Hg">&#160Hg</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Hg" id="Hg"/><br>
+				<label for="Tl">&#160Tl</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Tl" id="Tl"/>
+				<label for="Pb">&#160Pb</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Pb" id="Pb"/>
+				<label for="Bi">&#160Bi</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Bi" id="Bi"/>
+				<label for="Po">&#160Po</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Po" id="Po"/>
+				<label for="At">&#160At</label>
+				<input type="number" style="width:25px" value="0" min="0" name="At" id="At"/>
+				<label for="Rn">&#160Rn</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Rn" id="Rn"/>
+				<label for="Fr">&#160Fr</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Fr" id="Fr"/>
+				<label for="Ra">&#160Ra</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ra" id="Ra"/>
+				<label for="Ac">&#160Ac</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ac" id="Ac"/>
+				<label for="Th">&#160Th</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Th" id="Th"/><br>
+				<label for="Pa">&#160Pa</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Pa" id="Pa"/>
+				<label for="U">&#160&#160U</label>
+				<input type="number" style="width:25px" value="0" min="0" name="U" id="U"/>
+				<label for="Np">&#160Np</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Np" id="Np"/>
+				<label for="Pu">&#160Pu</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Pu" id="Pu"/>
+				<label for="Am">&#160Am</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Am" id="Am"/>
+				<label for="Cm">&#160Cm</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Cm" id="Cm"/>
+				<label for="Bk">&#160Bk</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Bk" id="Bk"/>
+				<label for="Cf">&#160Cf</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Cf" id="Cf"/>
+				<label for="Es">&#160Es</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Es" id="Es"/>
+				<label for="Fm">&#160Fm</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Fm" id="Fm"/><br>
+				<label for="Md">&#160Md</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Md" id="Md"/>
+				<label for="No">&#160No</label>
+				<input type="number" style="width:25px" value="0" min="0" name="No" id="No"/>
+				<label for="Lr">&#160Lr</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Lr" id="Lr"/>
+				<label for="Rf">&#160Rf</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Rf" id="Rf"/>
+				<label for="Db">&#160Db</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Db" id="Db"/>
+				<label for="Sg">&#160Sg</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Sg" id="Sg"/>
+				<label for="Bh">&#160Bh</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Bh" id="Bh"/>
+				<label for="Hs">&#160Hs</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Hs" id="Hs"/>
+				<label for="Mt">&#160Mt</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Mt" id="Mt"/>
+				<label for="Ds">&#160Ds</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Ds" id="Ds"/><br>
+				<label for="Rg">&#160Rg</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Rg" id="Rg"/>
+				<label for="Cn">&#160Cn</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Cn" id="Cn"/>
+				<label for="Uut" id=""/>Uut</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Uut" id="Uut"/>
+				<label for="Uuq" id=""/>Uuq</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Uuq" id="Uuq"/>
+				<label for="Uup" id=""/>Uup</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Uup" id="Uup"/>
+				<label for="Uuh" id=""/>Uuh</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Uuh" id="Uuh"/>
+				<label for="Uus" id=""/>Uus</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Uus" id="Uus"/>
+				<label for="Uuo" id=""/>Uuo</label>
+				<input type="number" style="width:25px" value="0" min="0" name="Uuo" id="Uuo"/><br>
+
+				<br><input type="submit" value="SEARCH" onclick = "calculateComposite()">
+			</form>
+		  </fieldset>
+		
+		
+		
+		<h2 id = "compositeOutput">Composite ID = </h2>
+		<p>The composite ID is sent to my database of molecules.</p>
+		<p>The server hosting my database does the computation
+		
+		
+		<h3>Explanation of the Output</h3>
+		
+			<p>The output is a list of all possible moleculecular formulas that can be created using the inputed atoms. For example, 
+			if 100 carbon, 100 hydrogen, and 100 oxygen atoms are inputed, the output will list many molecular formula variations 
+			of CHO, HO, CH, etc. However, the output will not list variations with more than 100 C, H, or O atoms atom.</p>
+		
+		
+	</body>
+
+	<footer>
+		<p>Michael's contact information<br><br>camposmike92@gmail.com</p>
+		
+	</footer>
+
+
+
+
+
+</html>

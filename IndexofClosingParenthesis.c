@@ -1,0 +1,6 @@
+int indexOfClose(string str){
+
+
+
+
+}

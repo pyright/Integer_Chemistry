@@ -1,0 +1,636 @@
+Atomic# Element Name	Element Symbol	Element Prime
+1	Hydrogen	H		2
+2	Helium		He		3
+3	Lithium		Li		5
+4	Beryllium	Be		7
+5	Boron		B		11
+6	Carbon		C		13
+7	Nitrogen	N		17
+8	Oxygen		O		19
+9	Fluorine	F		23		
+10	Neon		Ne		29
+11	Sodium		Na		31
+12	Magnesium	Mg		37
+13	Aluminum	Al		41
+14	Silicon		Si		43
+15	Phosphorus	P		47
+16	Sulfur		S		53
+17	Chlorine	Cl		59
+18	Argon		Ar		61
+19	Potassium	K		67
+20	Calcium		Ca		71
+21	Scandium	Sc		73
+22	Titanium	Ti		79
+23	Vanadium	V		83
+24	Chromium	Cr		89
+25	Manganese	Mn		97
+26	Iron		Fe		101
+27	Cobalt		Co		103
+28	Nickel		Ni		107
+29	Copper		Cu		109
+30	Zinc		Zn		113
+31	Gallium		Ga		127
+32	Germanium	Ge		131
+33	Arsenic		As		137
+34	Selenium	Se		139
+35	Bromine		Br		149
+36	Krypton		Kr		151
+37	Rubidium	Rb		157
+38	Strontium	Sr		163
+39	Yttrium		Y		167
+40	Zirconium	Zr		173
+41	Niobium		Nb		179
+42	Molybdenum	Mo		181
+43	Technetium	Tc		191
+44	Ruthenium	Ru		193
+45	Rhodium		Rh		197
+46	Palladium	Pd		199
+47	Silver		Ag		211
+48	Cadmium		Cd		223
+49	Indium		In		227
+50	Tin		Sn		229
+51	Antimony	Sb		233
+52	Tellurium	Te		239
+53	Iodine		I		241
+54	Xenon		Xe		251
+55	Cesium		Cs		257
+56	Barium		Ba		263
+57	Lanthanum	La		269
+58	Cerium		Ce		271
+59	Praseodymium	Pr		277
+60	Neodymium	Nd		281
+61	Promethium	Pm		283
+62	Samarium	Sm		293
+63	Europium	Eu		307
+64	Gadolinium	Gd		311
+65	Terbium		Tb		313
+66	Dysprosium	Dy		317
+67	Holmium		Ho		331
+68	Erbium		Er		337
+69	Thulium		Tm		347
+70	Ytterbium	Yb		349
+71	Lutetium	Lu		353
+72	Hafnium		Hf		359
+73	Tantalum	Ta		367
+74	Tungsten	W		373
+75	Rhenium		Re		379
+76	Osmium		Os		383
+77	Iridium		Ir		389
+78	Platinum	Pt		397
+79	Gold		Au		401
+80	Mercury		Hg		409
+81	Thallium	Tl		419
+82	Lead		Pb		421
+83	Bismuth		Bi		431
+84	Polonium	Po		433
+85	Astatine	At		439
+86	Radon		Rn		443
+87	Francium	Fr		449
+88	Radium		Ra		457
+89	Actinium	Ac		461
+90	Thorium		Th		463
+91	Protactinium	Pa		467
+92	Uranium		U		479
+93	Neptunium	Np		487
+94	Plutonium	Pu		491
+95	Americium	Am		499
+96	Curium		Cm		503
+97	Berkelium	Bk		509
+98	Californium	Cf		521
+99	Einsteinium	Es		523
+100	Fermium		Fm		541
+101	Mendelevium	Md		547
+102	Nobelium	No		557
+103	Lawrencium	Lr		563
+104	Rutherfordium	Rf		569
+105	Dubnium		Db		571
+106	Seaborgium	Sg		577
+107	Bohrium		Bh		587
+108	Hassium		Hs		593
+109	Meitnerium	Mt		599
+110	Darmstadtium	Ds		601
+111	Roentgenium	Rg		607
+112	Copernicium	Cn		613
+113	Ununtrium	Uut		617
+114	Ununquadium	Uuq		619
+115	Ununpentium	Uup		631
+116	Ununhexium	Uuh		641
+117	Ununseptium	Uus		643
+118	Ununoctium	Uuo		647
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hydrogen
+Helium
+Lithium
+Beryllium
+Boron
+Carbon
+Nitrogen
+Oxygen
+Fluorine		
+Neon
+Sodium
+Magnesium
+Aluminum
+Silicon
+Phosphorus
+Sulfur
+Chlorine
+Argon
+Potassium
+Calcium
+Scandium
+Titanium
+Vanadium
+Chromium
+Manganese
+Iron
+Cobalt
+Nickel
+Copper
+Zinc
+Gallium
+Germanium
+Arsenic
+Selenium
+Bromine
+Krypton
+Rubidium
+Strontium
+Yttrium
+Zirconium
+Niobium
+Molybdenum
+Technetium
+Ruthenium
+Rhodium
+Palladium
+Silver
+Cadmium
+Indium
+Tin
+Antimony
+Tellurium
+Iodine
+Xenon
+Cesium
+Barium
+Lanthanum
+Cerium
+Praseodymium
+Neodymium
+Promethium
+Samarium
+Europium
+Gadolinium	
+Terbium
+Dysprosium
+Holmium
+Erbium
+Thulium
+Ytterbium
+Lutetium
+Hafnium
+Tantalum
+Tungsten
+Rhenium
+Osmium
+Iridium
+Platinum
+Gold
+Mercury
+Thallium
+Lead
+Bismuth
+Polonium
+Astatine
+Radon
+Francium
+Radium
+Actinium
+Thorium
+Protactinium
+Uranium
+Neptunium
+Plutonium
+Americium
+Curium
+Berkelium
+Californium
+Einsteinium
+Fermium
+Mendelevium
+Nobelium
+Lawrencium
+Rutherfordium
+Dubnium
+Seaborgium
+Bohrium
+Hassium
+Meitnerium
+Darmstadtium
+Roentgenium
+Copernicium
+Ununtrium
+Ununquadium
+Ununpentium
+Ununhexium
+Ununseptium
+Ununoctium
+
+
+
+
+
+
+
+Hydrogen, Helium
+Lithium, 
+Beryllium, 
+Boron, 
+Carbon, 
+Nitrogen, 
+Oxygen, 
+Fluorine, 		
+Neon, 
+Sodium, 
+Magnesium, 
+Aluminum, 
+Silicon, 
+Phosphorus, 
+Sulfur, 
+Chlorine, 
+Argon, 
+Potassium, 
+Calcium, 
+Scandium, 
+Titanium, 
+Vanadium, 
+Chromium, 
+Manganese, 
+Iron, 
+Cobalt, 
+Nickel, 
+Copper, 
+Zinc, 
+Gallium, 
+Germanium, 
+Arsenic, 
+Selenium, 
+Bromine, 
+Krypton, 
+Rubidium, 
+Strontium, 
+Yttrium, 
+Zirconium, 
+Niobium, 
+Molybdenum, 
+Technetium, 
+Ruthenium, 
+Rhodium, 
+Palladium, 
+Silver, 
+Cadmium, 
+Indium, 
+Tin, 
+Antimony, 
+Tellurium, 
+Iodine, 
+Xenon, 
+Cesium, 
+Barium, 
+Lanthanum, 
+Cerium, 
+Praseodymium, 
+Neodymium, 
+Promethium, 
+Samarium, 
+Europium, 
+Gadolinium, 
+Terbium, 
+Dysprosium, 
+Holmium, 
+Erbium, 
+Thulium, 
+Ytterbium, 
+Lutetium, 
+Hafnium, 
+Tantalum, 
+Tungsten, 
+Rhenium, 
+Osmium, 
+Iridium, 
+Platinum, 
+Gold, 
+Mercury, 
+Thallium, 
+Lead, 
+Bismuth, 
+Polonium, 
+Astatine, 
+Radon, 
+Francium, 
+Radium, 
+Actinium, 
+Thorium, 
+Protactinium, 
+Uranium, 
+Neptunium, 
+Plutonium, 
+Americium, 
+Curium, 
+Berkelium, 
+Californium, 
+Einsteinium, 
+Fermium, 
+Mendelevium, 
+Nobelium, 
+Lawrencium, 
+Rutherfordium, 
+Dubnium, 
+Seaborgium, 
+Bohrium, 
+Hassium, 
+Meitnerium, 
+Darmstadtium, 
+Roentgenium, 
+Copernicium, 
+Ununtrium, 
+Ununquadium, 
+Ununpentium, 
+Ununhexium, 
+Ununseptium, 
+Ununoctium, 
+
+
+
+
+
+
+
+
+
+def Hydrogen
+def Helium
+def Lithium
+def Beryllium
+def Boron
+def Carbon
+def Nitrogen
+def Oxygen
+def Fluorine		
+def Neon
+def Sodium
+def Magnesium
+def Aluminum
+def Silicon
+def Phosphorus
+def Sulfur
+def Chlorine
+def Argon
+def Potassium
+def Calcium
+def Scandium
+def Titanium
+def Vanadium
+def Chromium
+def Manganese
+def Iron
+def Cobalt
+def Nickel
+def Copper
+def Zinc
+def Gallium
+def Germanium
+def Arsenic
+def Selenium
+def Bromine
+def Krypton
+def Rubidium
+def Strontium
+def Yttrium
+def Zirconium
+def Niobium
+def Molybdenum
+def Technetium
+def Ruthenium
+def Rhodium
+def Palladium
+def Silver
+def Cadmium
+def Indium
+def Tin
+def Antimony
+def Tellurium
+def Iodine
+def Xenon
+def Cesium
+def Barium
+def Lanthanum
+def Cerium
+def Praseodymium
+def Neodymium
+def Promethium
+def Samarium
+def Europium
+def Gadolinium	
+def Terbium
+def Dysprosium
+def Holmium
+def Erbium
+def Thulium
+def Ytterbium
+def Lutetium
+def Hafnium
+def Tantalum
+def Tungsten
+def Rhenium
+def Osmium
+def Iridium
+def Platinum
+def Gold
+def Mercury
+def Thallium
+def Lead
+def Bismuth
+def Polonium
+def Astatine
+def Radon
+def Francium
+def Radium
+def Actinium
+def Thorium
+def Protactinium
+def Uranium
+def Neptunium
+def Plutonium
+def Americium
+def Curium
+def Berkelium
+def Californium
+def Einsteinium
+def Fermium
+def Mendelevium
+def Nobelium
+def Lawrencium
+def Rutherfordium
+def Dubnium
+def Seaborgium
+def Bohrium
+def Hassium
+def Meitnerium
+def Darmstadtium
+def Roentgenium
+def Copernicium
+def Ununtrium
+def Ununquadium
+def Ununpentium
+def Ununhexium
+def Ununseptium
+def Ununoctium
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def Hydrogen():
+def Helium():
+def Lithium():
+def Beryllium():
+def Boron():
+def Carbon():
+def Nitrogen():
+def Oxygen():
+def Fluorine():		
+def Neon():
+def Sodium():
+def Magnesium():
+def Aluminum():
+def Silicon():
+def Phosphorus():
+def Sulfur():
+def Chlorine():
+def Argon():
+def Potassium():
+def Calcium():
+def Scandium():
+def Titanium():
+def Vanadium():
+def Chromium():
+def Manganese():
+def Iron():
+def Cobalt():
+def Nickel():
+def Copper():
+def Zinc():
+def Gallium():
+def Germanium():
+def Arsenic():
+def Selenium():
+def Bromine():
+def Krypton():
+def Rubidium():
+def Strontium():
+def Yttrium():
+def Zirconium():
+def Niobium():
+def Molybdenum():
+def Technetium():
+def Ruthenium():
+def Rhodium():
+def Palladium():
+def Silver():
+def Cadmium():
+def Indium():
+def Tin():
+def Antimony():
+def Tellurium():
+def Iodine():
+def Xenon():
+def Cesium():
+def Barium():
+def Lanthanum():
+def Cerium():
+def Praseodymium():
+def Neodymium():
+def Promethium():
+def Samarium():
+def Europium():
+def Gadolinium():
+def Terbium():
+def Dysprosium():
+def Holmium():
+def Erbium():
+def Thulium():
+def Ytterbium():
+def Lutetium():
+def Hafnium():
+def Tantalum():
+def Tungsten():
+def Rhenium():
+def Osmium():
+def Iridium():
+def Platinum():
+def Gold():
+def Mercury():
+def Thallium():
+def Lead():
+def Bismuth():
+def Polonium():
+def Astatine():
+def Radon():
+def Francium():
+def Radium():
+def Actinium():
+def Thorium():
+def Protactinium():
+def Uranium():
+def Neptunium():
+def Plutonium():
+def Americium():
+def Curium():
+def Berkelium():
+def Californium():
+def Einsteinium():
+def Fermium():
+def Mendelevium():
+def Nobelium():
+def Lawrencium():
+def Rutherfordium():
+def Dubnium():
+def Seaborgium():
+def Bohrium():
+def Hassium():
+def Meitnerium():
+def Darmstadtium():
+def Roentgenium():
+def Copernicium():
+def Ununtrium():
+def Ununquadium():
+def Ununpentium():
+def Ununhexium():
+def Ununseptium():
+def Ununoctium():
